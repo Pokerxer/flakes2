@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_movie_types",
+  "info": {
+    "displayName": "movie-type",
+    "icon": "genderless",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "movies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::movie.movie"
+    }
+  }
+}

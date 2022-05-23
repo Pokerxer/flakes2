@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "genres",
+  "info": {
+    "singularName": "genre",
+    "pluralName": "genres",
+    "displayName": "genre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.movie-type"
+    },
+    "adventure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.movie-type"
+    },
+    "Comedy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Crime": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Documentary": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Drama": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Family": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Fantasy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "History": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Horror": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Music": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Mystery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Romance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "SciFi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Thriller": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "War": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    },
+    "Western": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.movie-type"
+    }
+  }
+}

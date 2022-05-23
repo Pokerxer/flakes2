@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "series",
+  "info": {
+    "singularName": "serie",
+    "pluralName": "series",
+    "displayName": "serie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backdrop_path": {
+      "type": "string",
+      "required": true
+    },
+    "first_air_date": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "original_language": {
+      "type": "string"
+    },
+    "original_name": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "string"
+    },
+    "popularity": {
+      "type": "float"
+    },
+    "poster_path": {
+      "type": "string"
+    },
+    "vote_average": {
+      "type": "float"
+    },
+    "vote_count": {
+      "type": "integer"
+    },
+    "seasons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.season"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "viewers",
+  "info": {
+    "singularName": "viewer",
+    "pluralName": "viewers",
+    "displayName": "Viewer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "confirmationToken": {
+      "type": "string"
+    }
+  }
+}

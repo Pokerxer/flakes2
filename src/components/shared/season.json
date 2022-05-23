@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_seasons",
+  "info": {
+    "displayName": "season",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sid": {
+      "type": "integer"
+    },
+    "episodes": {
+      "displayName": "episodes",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.episodes"
+    },
+    "title": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

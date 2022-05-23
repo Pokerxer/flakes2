@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_populars",
+  "info": {
+    "displayName": "popular",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "movies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::movie.movie"
+    }
+  }
+}
