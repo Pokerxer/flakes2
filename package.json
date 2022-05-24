@@ -20,7 +20,8 @@
     "pg-connection-string": "^2.5.0",
     "strapi-google-auth": "^0.1.1",
     "strapi-plugin-email-designer": "^2.1.1",
-    "strapi-plugin-rest-cache": "^4.2.4"
+    "strapi-plugin-rest-cache": "^4.2.4",
+    "strapi-provider-rest-cache-memory": "^4.2.4"
   },
   "author": {
     "name": "Jordan Waldehz"

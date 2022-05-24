@@ -2572,17 +2572,17 @@ assign-symbols@^1.0.0:
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha512-Q+JC7Whu8HhmTdBph/Tq59IoRtoy6KAm5zzPv00WdujX82lbAL8K7WVjne7vdCsAmbF4AYaDOPyO3k0kl8qIrw==
 
+async@3.2.3, async@^3.1.0:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
+
 async@^2.6.2:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
   integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
-
-async@^3.1.0:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
-  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -3090,6 +3090,15 @@ cache-content-type@^1.0.0:
   dependencies:
     mime-types "^2.1.18"
     ylru "^1.2.0"
+
+cache-manager@^3.6.0:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-3.6.3.tgz#48052f3cf9ee4bac1cbb6adeedd69faf9da4ec04"
+  integrity sha512-dS4DnV6c6cQcVH5OxzIU1XZaACXwvVIiUPkFytnRmLOACuBGv3GQgRQ1RJGRRw4/9DF14ZK2RFlZu1TUgDniMg==
+  dependencies:
+    async "3.2.3"
+    lodash.clonedeep "^4.5.0"
+    lru-cache "6.0.0"
 
 cacheable-lookup@^5.0.3:
   version "5.0.4"
@@ -6904,6 +6913,11 @@ lodash-es@^4.17.15, lodash-es@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
@@ -7034,7 +7048,7 @@ lowlight@^1.17.0:
     fault "^1.0.0"
     highlight.js "~10.7.0"
 
-lru-cache@^6.0.0:
+lru-cache@6.0.0, lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
@@ -9911,6 +9925,13 @@ strapi-plugin-rest-cache@^4.2.4:
     "@koa/router" "^10.1.1"
     chalk "^4.1.2"
     debug "^4.3.4"
+
+strapi-provider-rest-cache-memory@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/strapi-provider-rest-cache-memory/-/strapi-provider-rest-cache-memory-4.2.4.tgz#65496cf14c5e79b93a37f66708300197ed41d3d3"
+  integrity sha512-W8mkl5chvLMj4wfcle7U2CzwdEBN4TkJTQzRWkK7hQSLpACQ438yZsULkUFdxFjymN+FC9k34A5ET9tOce8Q1A==
+  dependencies:
+    cache-manager "^3.6.0"
 
 stream-browserify@^3.0.0:
   version "3.0.0"
