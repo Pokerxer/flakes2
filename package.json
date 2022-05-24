@@ -1,5 +1,5 @@
 {
-  "name": "my-proje",
+  "name": "flakes",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -15,11 +15,12 @@
     "@strapi/plugin-users-permissions": "4.1.11",
     "@strapi/strapi": "4.1.11",
     "better-sqlite3": "7.4.6",
+    "mongoose": "^6.3.4",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Jordan Waldehz"
   },
   "strapi": {
     "uuid": "0316bce5-8d6b-4537-b912-9db56df856eb"
