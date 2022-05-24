@@ -49,6 +49,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.season"
+    },
+    "genre_ids": {
+      "type": "json"
     }
   }
 }
